@@ -43,3 +43,18 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+/*.hidden {
+     display:none;
+}*/
+
+.hidden>div {
+    display:none;
+}
+
+.visible>div {
+    display:block;
+}
+
+.reply{display: none;}
