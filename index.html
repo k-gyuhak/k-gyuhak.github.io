@@ -61,7 +61,7 @@
 					<button onclick="myFunction('myDIV1')">tl;dr</button>
 					<div id="myDIV1" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel replay method. Instead of using the replay samples to prevent forgetting, we use them to train the network to perform OOD detection. The proposed method is evaluated using recently proposed transformer architecture. It outperforms the baselines and is effective with little replay samples. Its algorithm design is inspired by our theoretical paper above.
+							We propose a novel replay-based CIL method. Instead of using the replay samples to prevent forgetting as the existing methods, we use them to train the network to perform an OOD detection. The proposed method is evaluated using a recently proposed transformer architecture. It outperforms the baselines and is effective with little replay samples. Its algorithm design is inspired by our theoretical paper above.
 						</FONT>
 					</div>
 				</dt>
@@ -76,7 +76,7 @@
 					<button onclick="myFunction('myDIV2')">tl;dr</button>
 					<div id="myDIV2" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel CIL method based on OOD detection and a method in TIL. CIL and TIL methods have their own advantages, but are not interchangeable. We leverage a TIL method and contrastive learning to build OOD detectors. The proposed method is superior both in TIL and CIL to strong baselines.
+							We propose a novel CIL method based on OOD detection and TIL. CIL and TIL methods have their own advantages, but they are developed independently A method intended for CIL is weaker in TIL, and vice versa. The proposed method is superior both in TIL and CIL to strong baselines. We achieve it by leveraging a TIL method with the contrastive learning and building OOD detectors. 
 						</FONT>
 					</div>
 				</dt>
@@ -91,7 +91,7 @@
 					<button onclick="myFunction('myDIV3')">tl;dr</button>
 					<div id="myDIV3" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel TIL method using forward transfer. Recent TIL methods suffer little or no forgetting, but are weak in knowledge transfer. We overcome this limitation by relaxing the protected parameters. This allows forward transfer and thus, results in better performances.
+							We propose a novel TIL method with positive forward transfer. Recent TIL methods suffer little or no forgetting, but are weak in knowledge transfer. We overcome this limitation by relaxing the protected parameters. This allows forward transfer and thus, results in better performances.
 						</FONT>
 					</div>
 				</dt>
@@ -106,7 +106,7 @@
 					<button onclick="myFunction('myDIV4')">tl;dr</button>
 					<div id="myDIV4" style="display:none">
 						<FONT COLOR="blue">
-							Existing CL methods trains the model from scratch despite the fact that strong pre-trained models are available. We propose a simple, efficient, yet effective method based on a pre-trained model. The proposed method generates pseudo feature vectors from the latent space to prevent forgetting. The system is exemplar-free and outperforms the baselines by large margins.
+							Existing CL methods train the model from scratch despite the fact that strong pre-trained models are available. We propose a simple, efficient, yet effective method based on a pre-trained model. The proposed method generates pseudo feature vectors from the latent space to prevent forgetting. The system outperforms the baselines by large margins.
 						</FONT>
 					</div>
 				</dt>
@@ -121,7 +121,7 @@
 					<button onclick="myFunction('myDIV5')">tl;dr</button>
 					<div id="myDIV5" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel TIL method based on orthogonal projection of parameters. We project parameters of each task onto a task-specific space orthogonal to the previous tasks. By construction, the system does not suffer from forgetting. To our knowledge, this approach was the first in the familiy of orthogonal weight modification methods in TIL, which now became popular, when we wrote it.
+							We propose a novel TIL method based on an orthogonal projection of parameters. We project parameters of each task onto a task-specific space orthogonal to the previous tasks. By construction, the system does not suffer from forgetting. To our knowledge, this approach was the first in the familiy of orthogonal weight modification methods in TIL, which now became popular, when we wrote it.
 						</FONT>
 					</div>
 				</dt>
