@@ -25,13 +25,13 @@
 				<!-- <img src = "IMG_3822.jpeg" height="750" width="1000" object-fit="cover"  style="vertical-align:middle;margin:0px 50px"> -->
 				<img src = "IMG_3822.jpeg" height="231.3" width="177.9" object-fit="cover" style="float:left;padding: 10px" CLEAR=ALL>
 				<p>
-					I am a PhD student at University of Illnois at Chicago (UIC). My advisor is 
+					I am currently pursuing my PhD degree at the University of Illinois at Chicago (UIC) under the guidance of 
 					<a href='https://www.cs.uic.edu/~liub/'>
 						<font color='black'>
 						<u>Bing Liu</u>.
 						</font>
 					</a>
-					I try to build an autonomous system that is capable of detecting unknown instances (i.e., out-of-distribution detection) and learning a new knowledge continually (i.e., continual learning). Prior to studying at UIC, I obtained BA in economics and statistics (double major) from Washington University in Saint Louis (WashU), and obtained MS in mathematics from New York University (NYU).
+					My research work involves the development of an autonomous system with the ability to detect unknown instances (out-of-distribution detection) and continually learn new knowledge (continual learning). Prior to joining UIC, I completed my undergraduate studies in economics and statistics (double major) at Washington University in Saint Louis (WashU) and earned my master's degree in mathematics from New York University (NYU).
 				</p>
     		</div><!-- /.blurb -->
 			<!-- <clear> -->
@@ -42,9 +42,65 @@
 			<dl>
 				<dt>
 					<span>&#8226;</span>
+					Continual Learning: Learnability and Algorithm.
+					<b>Gyuhak Kim</b><sup>*</sup>, Changnan Xiao<sup>*</sup>, Tatsuya Konishi, Bing Liu.
+					<i>To appear in ICML 2023</i>. <a href=""><font color="black"><u>link</u></font></a>
+					<button onclick="myFunction('myDIV')">tl;dr</button>
+					<div id="myDIV" style="display:none">
+						<FONT COLOR="blue">
+
+						</FONT>
+					</div>
+				</dt>
+				<!-- <br> -->
+
+				<dt>
+					<span>&#8226;</span>
+					Parameter-Level Soft-Masking for Continual Learning.
+					Tatsuya Konishi, Mori Kurokawa, Chihiro Ono, Zixuan Ke, <b>Gyuhak Kim</b>, Bing Liu.
+					<i>To appear in ICML 2023</i>. <a href=""><font color="black"><u>link</u></font></a>
+					<button onclick="myFunction('myDIV')">tl;dr</button>
+					<div id="myDIV" style="display:none">
+						<FONT COLOR="blue">
+
+						</FONT>
+					</div>
+				</dt>
+				<!-- <br> -->
+
+				<dt>
+					<span>&#8226;</span>
+					Open-World Continual Learning: Unifying Novelty Detection and Continual Learning.
+					<b>Gyuhak Kim</b><sup>*</sup>, Changnan Xiao<sup>*</sup>, Tatsuya Konishi, Zixuan Ke, Bing Liu.
+					<i>Preprint 2023</i>. <a href="https://arxiv.org/pdf/2304.10038.pdf"><font color="black"><u>link</u></font></a>
+					<button onclick="myFunction('myDIV')">tl;dr</button>
+					<div id="myDIV" style="display:none">
+						<FONT COLOR="blue">
+
+						</FONT>
+					</div>
+				</dt>
+				<!-- <br> -->
+
+				<dt>
+					<span>&#8226;</span>
+					Continual Pre-Training of Language Models.
+					Zixuan Ke<sup>*</sup>, Yijia Shao<sup>*</sup>, Haowei Lin<sup>*</sup>, Tatsuya Konishi, <b>Gyuhak Kim</b>, Bing Liu.
+					<i>ICLR 2023</i>. <a href="https://arxiv.org/pdf/2302.03241.pdf"><font color="black"><u>link</u></font></a>
+					<button onclick="myFunction('myDIV')">tl;dr</button>
+					<div id="myDIV" style="display:none">
+						<FONT COLOR="blue">
+
+						</FONT>
+					</div>
+				</dt>
+				<!-- <br> -->
+
+				<dt>
+					<span>&#8226;</span>
 					A Theoretical Study on Solving Continual Learning.
-					<b>Gyuhak Kim</b><sup>*</sup>, Changnan Xiao<sup>*</sup>, Tatsuya Konishi, Zixuan Ke, Bing Liu, (* equal contribution).
-					NeurIPS 2022. <a href="https://arxiv.org/pdf/2211.02633v1.pdf"><font color="black"><u>link</u></font></a>
+					<b>Gyuhak Kim</b><sup>*</sup>, Changnan Xiao<sup>*</sup>, Tatsuya Konishi, Zixuan Ke, Bing Liu.
+					<i>NeurIPS 2022</i>. <a href="https://arxiv.org/pdf/2211.02633v1.pdf"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV')">tl;dr</button>
 					<div id="myDIV" style="display:none">
 						<FONT COLOR="blue">
@@ -58,12 +114,12 @@
 					<span>&#8226;</span>
 					A Multi-Head Model for Continual Learning via Out-of-Distribution Replay.
 					<b>Gyuhak Kim</b>, Zixuan Ke, Bing Liu.
-					CoLLAs 2022.
+					<i>CoLLAs 2022</i>.
 					<a href="https://arxiv.org/pdf/2208.09734.pdf"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV1')">tl;dr</button>
 					<div id="myDIV1" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel replay-based CIL method. Instead of using the replay samples to prevent forgetting as the existing methods, we use them to train the network to perform an OOD detection. The proposed method is evaluated using a recently proposed transformer architecture. It outperforms the baselines and is effective with little replay samples. Its algorithm design is inspired by our theoretical paper above.
+							We propose a novel replay-based CIL method. Instead of using the replay samples to prevent forgetting as the existing methods, we use them as out-of-distribution (OOD) samples to train the network for OOD detection. The proposed method is evaluated using a recently proposed transformer architecture. It outperforms the baselines and is effective with few replay samples. Its algorithm design is inspired by our theoretical paper above.
 						</FONT>
 					</div>
 				</dt>
@@ -73,12 +129,12 @@
 					<span>&#8226;</span>
 					Continual Learning Based on OOD Detection and Task Masking.
 					<b>Gyuhak Kim</b>, Sepideh Esmaeilpour, Changnan Xiao, Bing Liu.
-					CVPR Workshops 2022.
+					<i>CVPR Workshops 2022</i>.
 					<a href="https://openaccess.thecvf.com/content/CVPR2022W/CLVision/papers/Kim_Continual_Learning_Based_on_OOD_Detection_and_Task_Masking_CVPRW_2022_paper.pdf"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV2')">tl;dr</button>
 					<div id="myDIV2" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel CIL method based on OOD detection and TIL. CIL and TIL methods have their own advantages, but they are developed independently A method intended for CIL is weaker in TIL, and vice versa. The proposed method is superior both in TIL and CIL to strong baselines. We achieve it by leveraging a TIL method with the contrastive learning and building OOD detectors. 
+							We propose a novel CIL method based on OOD detection and TIL. CIL and TIL methods have their own advantages, and they are developed independently. A method intended for CIL is weaker in TIL, and vice versa. The proposed method is superior in both TIL and CIL. We achieve it by leveraging a TIL method with contrastive learning and building OOD detectors. 
 						</FONT>
 					</div>
 				</dt>
@@ -88,7 +144,7 @@
 					<span>&#8226;</span>
 					Partially Relaxed Masks for Knowledge Transfer Without Forgetting in Continual Learning.
 					Tatsuya Konishi, Mori Kurokawa, Chihiro Ono, Zixuan Ke, <b>Gyuhak Kim</b>, Bing Liu.
-					PAKDD 2022.
+					<i>PAKDD 2022</i>.
 					<a href="https://link.springer.com/chapter/10.1007/978-3-031-05933-9_29"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV3')">tl;dr</button>
 					<div id="myDIV3" style="display:none">
@@ -103,7 +159,7 @@
 					<span>&#8226;</span>
 					Continual Learning Using Pseudo-Replay via Latent Space Sampling.
 					<b>Gyuhak Kim</b>, Sepideh Esmaeilpour, Zixuan Ke, Tatsuya Konishi, Bing Liu.
-					Preprint 2021.
+					<i>Preprint 2021</i>.
 					<a href="https://openreview.net/pdf?id=nMo44IjBHX5"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV4')">tl;dr</button>
 					<div id="myDIV4" style="display:none">
@@ -118,21 +174,57 @@
 					<span>&#8226;</span>
 					Continual Learning via Principal Components Projection.
 					<b>Gyuhak Kim</b> and Bing Liu.
-					Preprint 2019.
+					<i>Preprint 2019</i>.
 					<a href="https://openreview.net/pdf?id=SkxlElBYDS"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV5')">tl;dr</button>
 					<div id="myDIV5" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel TIL method based on an orthogonal projection of parameters. We project parameters of each task onto a task-specific space orthogonal to the previous tasks. By construction, the system does not suffer from forgetting. To our knowledge, this approach was the first in the familiy of orthogonal weight modification methods in TIL, which now became popular, when we wrote it.
+							We propose a novel TIL method based on an orthogonal projection of parameters. We project the parameters of each task onto a task-specific space orthogonal to the previous tasks. By construction, the system does not suffer from forgetting. To our knowledge, this approach was the first in the family of orthogonal weight modification methods in TIL, which now became popular, when we wrote it.
 						</FONT>
 					</div>
+				<br>
+			(* equal contribution)
 				</dt>
-				<!-- <br> -->
-
 			</div><!-- /.blurb -->	
+
+
+			<h3> Professional Services </h3>
+			<dl>
+				<dt>
+					<span>&#8226;</span>
+					Reviewer
+					<div>
+						&ensp; NeurIPS, ACL, COLING, CoLLAs
+					</div>
+				</dt>
+
+			</div><!-- /.blurb -->
+
+
+			<h3> Recent Talks </h3>
+			<dl>
+				<dt>
+					<span>&#8226;</span>
+					<i>Invited tutorial</i>. <q>Recent Advances in Class Incremental Learning.</q> 15th Conference for Data Engineering and Information Management, 2023, Remote.
+				</dt>
+				<dt>
+					<span>&#8226;</span>
+					<i>Paper presentation</i>. <q>A Theoretical Study on Solving Continual Learning.</q> In Advances of Neural Information Processing Systems, 2022, Remote.
+				</dt>
+				<dt>
+					<span>&#8226;</span>
+					<i>Paper presentation</i>. <q>A Multi-Task Model for Continual Learning via Out-of-Distribution Replay.</q> In Conference of Lifelong Learning Agents, 2022, Remote.
+				</dt>
+
+			</div><!-- /.blurb -->
+
+
+
+
+
 		</div><!-- /.container -->
 		<footer>
-			<ul>Last Updated: 10/10/2022</ul>
+			<ul>Last Updated: 04/27/2023</ul>
     	</footer>
 	</body>
 </html>
