@@ -44,11 +44,11 @@
 					<span>&#8226;</span>
 					Continual Learning: Learnability and Algorithm.
 					<b>Gyuhak Kim</b><sup>*</sup>, Changnan Xiao<sup>*</sup>, Tatsuya Konishi, Bing Liu.
-					<i>To appear in ICML 2023</i>. <a href=""><font color="black"><u>link</u></font></a>
+					<i>To appear in ICML 2023</i>. <a href="https://openreview.net/pdf?id=v2Xv1EbBkH"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV10')">tl;dr</button>
 					<div id="myDIV10" style="display:none">
 						<FONT COLOR="blue">
-
+							In this paper, we show that class-incremental learning (CIL) is in fact learnable. The learnability arises from the fact that OOD detection is learnable (Fang et al., 2022) and CIL problem can be solved by out-of-distribution detection, as demonstrated in our NeurIPS 2022 publication. Our theory also shows that by training a continual learning algorithm with out-of-distribution (OOD) detection capabilities for each task, the problem can be reduced to multi-task learning. Based on the theoretical analysis, we propose a novel CIL method that outperforms the existing state-of-the-art CL methods.
 						</FONT>
 					</div>
 				</dt>
@@ -58,11 +58,11 @@
 					<span>&#8226;</span>
 					Parameter-Level Soft-Masking for Continual Learning.
 					Tatsuya Konishi, Mori Kurokawa, Chihiro Ono, Zixuan Ke, <b>Gyuhak Kim</b>, Bing Liu.
-					<i>To appear in ICML 2023</i>. <a href=""><font color="black"><u>link</u></font></a>
+					<i>To appear in ICML 2023</i>. <a href="https://openreview.net/pdf?id=wxFXvPdVqi"><font color="black"><u>link</u></font></a>
 					<button onclick="myFunction('myDIV9')">tl;dr</button>
 					<div id="myDIV9" style="display:none">
 						<FONT COLOR="blue">
-
+							Existing research on task-incremental learning (TIL) primarily focuses on preventing catastrophic forgetting. In this paper, we introduces a novel technique called soft-masking of parameter-level gradient flow (SPG). The proposed method enjoys knowledge transfer while effectively prevents forgetting. We show the effectiveness of the proposed method on both similar and dissimilar tasks.
 						</FONT>
 					</div>
 				</dt>
@@ -76,7 +76,7 @@
 					<button onclick="myFunction('myDIV8')">tl;dr</button>
 					<div id="myDIV8" style="display:none">
 						<FONT COLOR="blue">
-
+							In order to make an AI agent thrive in the open world, it has to detect novelties and learn them incrementally to make the system more knowledgeable over time. The former is called out-of-distribution (OOD) detection and the latter is called continual learning. In the research community, the two are regarded as two completely different problems. This paper theoretically unifies them by proving that good OOD detection is, in fact, necessary for class-incremental learning (CIL). Thus, a good CIL algorithm can naturally be used in the open world to perform both problems.
 						</FONT>
 					</div>
 				</dt>
@@ -90,7 +90,7 @@
 					<button onclick="myFunction('myDIV7')">tl;dr</button>
 					<div id="myDIV7" style="display:none">
 						<FONT COLOR="blue">
-
+							This paper proposes a novel method to continually domain-adaptive pre-train (DAP) a language model (LM) with a sequence of unlabeled domain corpora to adapt the LM to these domains to improve their endtask performances. Several techniques are proposed. Extensive experiments show that the method not only overcomes catastrophic forgetting, but also achieves knowledge transfer to improve end-task performances.
 						</FONT>
 					</div>
 				</dt>
@@ -104,7 +104,7 @@
 					<button onclick="myFunction('myDIV6')">tl;dr</button>
 					<div id="myDIV6" style="display:none">
 						<FONT COLOR="blue">
-							We provide a theoretical guidance on how to solve CIL. It connects CIL, TIL, and OOD. The theoretical analysis is agnostic to specific implementations and is applicable to any CIL problem settings (e.g., blurry, online, offline, etc.). Based on the analysis, we design several CIL methods and show superior performances to the sota baselines.
+							We provide a theoretical guidance on how to solve class-incremental learning (CIL). It connects CIL, task-incremental learning (TIL), and out-of-distribution (OOD) detection. The theoretical analysis is general as it is agnostic to specific implementations and is applicable to any CIL problem settings (e.g., blurry, online, offline, etc.). Based on the analysis, we design several CIL methods and show superior performances to the state-of-the-art baselines.
 						</FONT>
 					</div>
 				</dt>
@@ -119,7 +119,7 @@
 					<button onclick="myFunction('myDIV5')">tl;dr</button>
 					<div id="myDIV5" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel replay-based CIL method. Instead of using the replay samples to prevent forgetting as the existing methods, we use them as out-of-distribution (OOD) samples to train the network for OOD detection. The proposed method is evaluated using a recently proposed transformer architecture. It outperforms the baselines and is effective with few replay samples. Its algorithm design is inspired by our theoretical paper above.
+							We propose a novel replay-based class-incremental learning (CIL) method. Instead of using the replay samples to prevent forgetting as the existing methods, we use them as out-of-distribution (OOD) samples to train the network for OOD detection. The proposed method is evaluated using a recently proposed transformer architecture. It outperforms the baselines and is effective with few replay samples. Its algorithm design is inspired by the theory in our NeurIPS 2022 publication.
 						</FONT>
 					</div>
 				</dt>
@@ -134,7 +134,7 @@
 					<button onclick="myFunction('myDIV4')">tl;dr</button>
 					<div id="myDIV4" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel CIL method based on OOD detection and TIL. CIL and TIL methods have their own advantages, and they are developed independently. A method intended for CIL is weaker in TIL, and vice versa. The proposed method is superior in both TIL and CIL. We achieve it by leveraging a TIL method with contrastive learning and building OOD detectors. 
+							We propose a novel class-incremental learning (CIL) method based on out-of-distribution (OOD) detection and task-incremental learning (TIL). CIL and TIL methods have their own advantages, and they are developed independently. A continual learning method intended for CIL is weaker in TIL, and vice versa. The proposed method is superior in both TIL and CIL. We achieve it by leveraging a TIL method with contrastive learning and building OOD detectors. 
 						</FONT>
 					</div>
 				</dt>
@@ -149,7 +149,7 @@
 					<button onclick="myFunction('myDIV3')">tl;dr</button>
 					<div id="myDIV3" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel TIL method with positive forward transfer. Recent TIL methods suffer little or no forgetting, but are weak in knowledge transfer. We overcome this limitation by relaxing the protected parameters. This allows forward transfer and thus, results in better performances.
+							We propose a novel task-incremental learning (TIL) method with positive forward transfer. Recent TIL methods suffer little or no forgetting, but are weak in knowledge transfer. We overcome this limitation by relaxing the protected parameters. This allows forward transfer and thus, results in better performances.
 						</FONT>
 					</div>
 				</dt>
@@ -164,7 +164,7 @@
 					<button onclick="myFunction('myDIV2')">tl;dr</button>
 					<div id="myDIV2" style="display:none">
 						<FONT COLOR="blue">
-							Existing CL methods train the model from scratch despite the fact that strong pre-trained models are available. We propose a simple, efficient, yet effective method based on a pre-trained model. The proposed method generates pseudo feature vectors from the latent space to prevent forgetting. The system outperforms the baselines by large margins.
+							Existing continual learning (CL) methods train the model from scratch despite the fact that strong pre-trained models are available. We propose a simple, efficient, yet effective method based on a pre-trained model. The proposed method generates pseudo feature vectors from the latent space to prevent forgetting. The system outperforms the baselines by large margins.
 						</FONT>
 					</div>
 				</dt>
@@ -179,7 +179,7 @@
 					<button onclick="myFunction('myDIV1')">tl;dr</button>
 					<div id="myDIV1" style="display:none">
 						<FONT COLOR="blue">
-							We propose a novel TIL method based on an orthogonal projection of parameters. We project the parameters of each task onto a task-specific space orthogonal to the previous tasks. By construction, the system does not suffer from forgetting. To our knowledge, this approach was the first in the family of orthogonal weight modification methods in TIL, which now became popular, when we wrote it.
+							We propose a novel task-incremental learning (TIL) method based on an orthogonal projection of parameters. We project the parameters of each task onto a task-specific space orthogonal to the previous tasks. By construction, the system does not suffer from forgetting. To our knowledge, this approach was the first in the family of orthogonal weight modification methods in TIL, which now became popular.
 						</FONT>
 					</div>
 				<br>
@@ -194,7 +194,7 @@
 					<span>&#8226;</span>
 					Reviewer
 					<div>
-						&ensp; Conference: NeurIPS, ACL, COLING, CoLLAs <br>
+						&ensp; Conference: NeurIPS, ACL, EMNLP, COLING, CoLLAs <br>
 						&ensp; Journal: TPAMI
 					</div>
 				</dt>
@@ -204,6 +204,10 @@
 
 			<h3> Presentations and Tutorials </h3>
 			<dl>
+				<dt>
+					<span>&#8226;</span>
+					<i>Invited talk</i>. <q>Class Incremental Learning: Learnability and Algorithm.</q> KDDI Symposium, 2023, Remote.
+				</dt>
 				<dt>
 					<span>&#8226;</span>
 					<i>Invited tutorial</i>. <q>Recent Advances in Class Incremental Learning.</q> 15th Conference for Data Engineering and Information Management, 2023, Remote.
@@ -225,7 +229,7 @@
 
 		</div><!-- /.container -->
 		<footer>
-			<ul>Last Updated: 05/19/2023</ul>
+			<ul>Last Updated: 06/22/2023</ul>
     	</footer>
 	</body>
 </html>
